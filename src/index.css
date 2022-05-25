@@ -196,7 +196,7 @@ body{
   margin-top: 10px;
   position: absolute;
 }
-.p{
+p{
   font-family: 'Roboto';
 }
 
@@ -252,13 +252,12 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 65%;
+  width: 70%;
   margin:20px auto;
 }
 .service-title{
   text-align: right;
   padding: 10px ;
-  margin: 0 40px 0 0;
 }
 .service-title h1{
   font-family: 'Poppins';
@@ -769,7 +768,7 @@ body{
 
 .tools-title p {
   text-align: left;
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 .tools-logo {

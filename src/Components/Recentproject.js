@@ -5,7 +5,7 @@ function Rprojects() {
     <div className='recent-project' id='blogs'>
         <div className='recent-section'>
             <div className="project-image">
-                <img src='.\Images\project.png' alt='' />
+                <img src='.\Images\project.png' alt='' data-aos="zoom-in"/>
             </div>
             <div className='projects-info'>
                 <div className='heading'> 
