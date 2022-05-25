@@ -7,10 +7,10 @@ const Teams = () => {
         <div className='team'>
             <div className="team-container">
                 <div className="team-1">
-                <img src=".\Images\cpic1.png" alt="" />
+                <img src=".\Images\cpic1.png" alt="" data-aos="zoom-in"/>
                 </div>
                 <div className="team-2">
-                <img src=".\Images\cpic2.png" alt="" />
+                <img src=".\Images\cpic2.png" alt="" data-aos="zoom-in"/>
                 </div>
                 <div className="team-3">
                     <div className="our-team">
@@ -19,9 +19,12 @@ const Teams = () => {
                     </div>
                     <h1>Our <span>Core</span> member</h1>
                     <div className="team-photos">
-                        <img src=".\Images\c-leftarrow.png" alt="" />
+                        <div className="left-arrow">
+                            <img classname='left-arrow' src=".\Images\c-leftarrow.png" alt="" />
+                        </div>
+                        
                         <div className="team-photo-main">
-                        <img src=".\Images\cpic3.png" alt="" />
+                        <img src=".\Images\cpic3.png" alt="" data-aos="zoom-in" />
                         <RiInstagramFill className='icon icon1'/>
                         <FaTwitter className='icon icon2'/>
                         </div>
@@ -33,11 +36,11 @@ const Teams = () => {
                     <button>Join Our Team</button>
                 </div>
                 <div className="team-4">
-                <img src=".\Images\cpic4.png" alt="" />
+                <img src=".\Images\cpic4.png" alt="" data-aos="zoom-in"/>
 
                 </div>
                 <div className="team-5">
-                <img src=".\Images\cpic5.png" alt="" />
+                <img src=".\Images\cpic5.png" alt="" data-aos="zoom-in"/>
 
                 </div>
             </div>

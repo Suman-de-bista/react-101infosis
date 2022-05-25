@@ -1,6 +1,23 @@
 import React from 'react';
 
+
 const NavBar = () => {
+    let anchorSelector = 'a[href^="#"]';
+     
+        // Collect all such anchor links
+        let anchorList =
+            document.querySelectorAll(anchorSelector);
+         
+        // Iterate through each of the links
+        anchorList.forEach(link => {
+            link.onclick = function (e) {
+                e.preventDefault();
+                let destination = document.querySelector(this.hash);
+                destination.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
     return (
         <div className='nav-bar'>
             <div className="nav-logo">
@@ -8,9 +25,10 @@ const NavBar = () => {
             </div>
             <div className="nav-btn">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Home</a>
+                <div className="line"></div></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#service">Services <img src=".\Images\Chevron Down.png" alt="" /></a></li>
                 <li><a href="#blogs">Blogs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>

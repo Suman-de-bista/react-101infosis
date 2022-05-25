@@ -1,0 +1,474 @@
+
+
+
+@media only screen and (max-width:1332px){
+    .projects-info{
+        display:flex ;
+        align-items: center;
+    }
+
+    .project-image{
+        width: 100%;
+    }
+
+    .recent-section img{
+        width: 100%;
+        margin: 0;
+    }
+    .recent-section .projects-info {
+        width: 100%;
+        margin: 50px 10px;
+        justify-content: space-between;
+    }
+    .projects-info h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-info h6{
+        font-size: 14px;
+    }
+    .recent-section h1{
+        font-size: 24px;
+        margin: 10px 0
+    }
+    .recent-section p{
+        font-size: 16px;
+        margin: 15px 5px;
+        text-align: center;
+    }
+    .recent-section button{
+        font-size: 12px;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:1202px){
+    .team-5{
+        display: none;
+    }
+    .team-3 img:nth-child(3){
+        display: none;
+    }
+    .team-3 img:nth-child(0){
+        display: none;
+    }
+    .left-arrow img{
+        display: none;
+    }
+    .team-3 h1{
+        text-align: center;
+    }
+      
+}
+
+@media only screen and (max-width:948px){
+    .team-2{
+        width:20% ;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .team-2 img{
+        width: 80%;
+        /* height: 20%; */
+    }
+
+    .team-1{
+        display: none;
+    }
+
+    .team-4{
+        width:20% ;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .team-4 img{
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .team-photo-main .icon{ 
+        width: 15%;
+    }
+
+    .service-headline{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        /* margin: 0; */
+        padding: 0;
+    }
+
+    .service-headline p{
+        border: none;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .team-photo-main img{
+        width: 80%;
+    }
+    .service-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .scards{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:948px){
+    
+}
+
+
+@media only screen and (max-width:1034px){
+
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial-photos img{
+        width: 15%;
+    }
+
+    .testimonial-photos img:nth-child(1){
+        width: 29.31px;
+        height: 25.38px;
+    }
+    .testimonial-photos img:nth-child(7){
+        width: 29.31px;
+        height: 25.38px;
+    }
+    .home-logo{
+        width: auto;
+    }
+
+    .about-card img{
+        margin-top: 25px;
+    }
+}
+    
+
+
+    /* MOBILE VIEW */
+
+
+
+@media only screen and (max-width:500px){
+    .nav-bar{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+
+    .service-headline{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-headline h1{
+        font-size: 24px;
+    }
+    .our-services{
+        display: none;
+    }
+    .scards p{
+        width: 90%  ;
+    }
+
+    .our-customer{
+        font-size: 14px;
+    }
+    .our-customer span{
+        color: blueviolet;
+    }
+    .our-customer .line{
+        background-color: blueviolet;
+        border: 1px solid blueviolet;
+    }
+    .customer h1{
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .customer-text{
+        font-size: 13px;
+    }
+    .customer-cards{
+        width: 100%;
+    }
+
+    .ccard{
+        width: 100%;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    .ccard img{
+        width: 100%;
+        margin: auto;
+    }
+    .customer-cards div:nth-child(2){
+        display: none;
+    }
+    .customer-cards div:nth-child(3){
+        display: none;
+    }
+    .customer-cards div:nth-child(4){
+        display: none;
+    }
+
+    .our-testimonial h6{
+        font-size: 14px;
+    }
+    .testimonial h1{
+        font-size: 24px;
+        width: 80%;
+    }
+    .testimonial-photos{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .testimonial-photos img:nth-child(4){
+        width: 100%;
+        padding: 0 15px;
+    }
+    .testimonial-photos img:nth-child(2){
+        display: none;
+    }
+    .testimonial-photos img:nth-child(3){
+        display: none;
+    }
+    .testimonial-photos img:nth-child(5){
+        display: none;
+    }
+    .testimonial-photos img:nth-child(6){
+        display: none;
+    }
+    .testimonial p{
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .our-feature{
+        display: none;
+    }
+    .features h1{
+        width: 90%;
+        text-align: center;
+        font-size: 24px
+    }
+
+    .feature-text{
+        width: 90%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .features-cards{
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .fcard{
+        width: 100%;
+    }
+    .fcard img{
+        width: 40%;
+    }
+    .fcard h3{
+        font-size: 24px;
+    }
+    .fcard p{
+        font-size: 16px;
+        width: 90%;
+        text-align: center;
+    }
+    .fcard2{
+        display: none;
+    }
+    .fcard3{
+        display: none;
+    }
+    .fcard-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 15%;
+        margin: 0 auto 40px auto;
+    }
+
+    .team{
+        width: 100%;
+        padding: 0px 0;
+        
+    }
+    .team-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .team-3{
+        width: 55%;
+    }
+    .team-3 img{
+        width: 60%;
+        margin: auto;
+    }
+    .icon{
+        bottom: 15%;
+        
+    }
+    .our-team h6{
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .team-3 h1{
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .team-2{
+        min-height: 20vh;
+        justify-content: flex-start;
+    }
+    .team-4{
+        min-height: 40vh;
+        justify-content: flex-start;
+    }
+
+    .team-3 p{
+        width: 332px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .team-3 button{
+        font-size: 13px;
+    }
+
+    .tools-and-tech{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tools-title{
+        width: 100%;
+        text-align: center;
+    }
+    .tools-logo{
+        width: 100%;
+    }
+    .tools-title .heading{
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .tools-title .heading p{
+        width: 90%;
+    }
+    .tools-title .heading .line{
+        text-align: center;
+    }
+    .tools-title h1{
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+    .tools-main{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+    .tat-logo{
+        width: 35%;
+        text-align: center;
+        align-items: center;
+    }
+    .tlogo{
+        width: 100%;
+    }
+    .tools-logo-main div:nth-child(5){
+        display: none;
+    }
+    .tools-logo-main div:nth-child(6){
+        display: none;
+    }
+    .connect-with-us{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .footer{
+        display: none;
+    }
+    .connect{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 200px;
+    }
+    .connect-with-us .connect-main{
+        width: 80%;
+    }
+
+    .connect-main h1{
+        width: 100%;
+        font-size: 24px;
+        align-items:center ;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .connect-main .heading{
+        width: 100%;
+        /* align-items: center; */
+        justify-content: center;
+        font-size: 14px;
+    }
+    .connect-main p{
+        width: 100%;
+        padding: 10px ;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .connect-form{
+        width: 100%;
+    }
+    .connect-form-main{
+        width: 100%;
+    }
+    .connect-form-main input{
+        width: 100%;
+    }
+   
+    .connect-with-us .connect-form{
+        width: 95%;
+    }
+    .connect-form input{
+        height: 60px;
+    }
+    .connect-form button{
+        height: 60px;
+        font-size: 20px;
+    }
+
+    
+
+
+
+}

@@ -10,10 +10,10 @@ const Customer = () => {
             <h1>Our <span>Clients</span> Love Our Work</h1>
             <div className="customer-text">But don’t just take our word for it...</div>
             <div className="customer-cards">
-                <div className="ccard"><img src=".\Images\client1.png" alt="client" /></div>
-                <div className="ccard"><img src=".\Images\client2.png" alt="client" /></div>
-                <div className="ccard"><img src=".\Images\client3.png" alt="client" /></div>
-                <div className="ccard"><img src=".\Images\client4.png" alt="client" /></div>
+                <div className="ccard" data-aos="fade-right"><img src=".\Images\client1.png" alt="client" /></div>
+                <div className="ccard" data-aos="fade-right"><img src=".\Images\client2.png" alt="client" /></div>
+                <div className="ccard" data-aos="fade-left"><img src=".\Images\client3.png" alt="client" /></div>
+                <div className="ccard" data-aos="fade-left"><img src=".\Images\client4.png" alt="client" /></div>
             </div>
         </div>
     );

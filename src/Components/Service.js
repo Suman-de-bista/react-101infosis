@@ -2,12 +2,12 @@ import React from 'react';
 
 const Service = () => {
     return (
-        <div className='services'>
+        <div className='services' id='service'>
             <div className="service-headline">
                 <div className="service-title">
                     <div className="our-services">
                         <div className="line"></div>
-                        <div className="our-service-main">Our <span/>Services</div>
+                        <div className="our-service-main">Our <span>Services</span></div>
                     </div>
                     <h1> Get <span>Exceptional</span> <br /> Service for Growth</h1>
                 </div>
@@ -16,7 +16,7 @@ const Service = () => {
                 </p>
             </div>
             <div className="service-cards">
-                <div className="scards scard1">
+                <div className="scards scard1" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\webdev.png" alt="logo" />
                     </div>
@@ -24,23 +24,23 @@ const Service = () => {
                     <p>Multi-Vendor E-commerce to Small Website, Payment Integration, API Integration, Domain Registration, Web Hosting, Website Maintenance, Website Redesign</p>
                     <a href="">Read More <img src=".\Images\arrow.png" alt="" /></a>
                 </div>
-                <div className="scards scard2">
+                <div className="scards scard2" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\appdev.png" alt="logo" />
                     </div>
                     <h3>Applcation Development</h3>
-                    <p>IOS/Android Apps, Multi-vendor E-commerce to <br/> Small Apps</p>
+                    <p>IOS/Android Apps, Multi-vendor E-commerce to Small Apps</p>
                     <a href="">Read More <img src=".\Images\arrow.png" alt="" /></a>
                 </div>
-                <div className="scards scard3">
+                <div className="scards scard3" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\graphicd.png" alt="logo" />
                     </div>
                     <h3>Graphic Design</h3>
-                    <p>Logo Concept/Design, 2D/3D Graphics <br/> Design, Vector/Illustration, 2D/3D Mockups <br/>, Social Media Designs, UX/UI, Animation Concept/Designs.</p>
+                    <p>Logo Concept/Design, 2D/3D Graphics Design, Vector/Illustration, 2D/3D Mockups , Social Media Designs, UX/UI, Animation Concept/Designs.</p>
                     <a href="">Read More <img src=".\Images\arrow.png" alt="" /></a>
                 </div>
-                <div className="scards scard4">
+                <div className="scards scard4" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\digitalm.png" alt="logo" />
                     </div>
@@ -49,7 +49,7 @@ const Service = () => {
                     <a href="">Read More <img src=".\Images\arrow.png" alt="" /></a>
 
                 </div>
-                <div className="scards scard5">
+                <div className="scards scard5" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\blogs.png" alt="logo" />
                     </div>
@@ -57,7 +57,7 @@ const Service = () => {
                     <p>Get updated with latest news on our blogs <br/> and if you want you can also contribute <br/> on our blog. Join Us by creating <br /> an account.</p>
                     <a href="">Read More <img src=".\Images\arrow.png" alt="" /></a>
                 </div>
-                <div className="scards scard6">
+                <div className="scards scard6" data-aos="zoom-in">
                     <div className="simage-container">
                         <img src=".\Images\contactsup.png" alt="logo" />
                     </div>
