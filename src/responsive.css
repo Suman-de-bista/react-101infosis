@@ -189,11 +189,11 @@
 
     .team-2{
         min-height: 20vh;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
     }
     .team-4{
         min-height: 40vh;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
     }
 
     .team-3 p{
