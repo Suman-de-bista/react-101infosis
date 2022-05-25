@@ -196,9 +196,7 @@ body{
   margin-top: 10px;
   position: absolute;
 }
-p{
-  font-family: 'Poppins' !important;
-}
+
 
 .card-main{
   display: flex;
