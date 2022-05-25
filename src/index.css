@@ -253,7 +253,7 @@ body{
 
 .service-headline{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 70%;
   margin:20px auto;
@@ -305,10 +305,10 @@ body{
   justify-content: right;
   width: 50%;
   padding: 0 0 0px 40px;
-  margin: 0 0 0px 40px;
+  margin: auto;  
   display: flex;
   border-left: 1px solid #333333;
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -351,7 +351,7 @@ body{
   color: #091E80;
 }
 .scards p{
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -406,7 +406,7 @@ body{
 }
 
 .customer-text{
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   margin: 10px 0;
@@ -445,8 +445,6 @@ body{
 }
 .features-cards{
   display: flex;
-  /* justify-content: space-around; */
-  /* align-items: center; */
   flex-wrap: wrap;
   width: 85%;
   
@@ -460,7 +458,6 @@ body{
   padding: 20px 12px;
   gap: 16px;
   width: 30%;
-  /* height: 100%; */
   background-color: #F1F3FE;
   border: 1px solid #F5F5F5;
   box-shadow: 0px 2px 2px #E6E6E6;
@@ -473,7 +470,7 @@ body{
 }
 .fcard p{
   width: 90%;
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -647,7 +644,7 @@ body{
 }
 
 .team-3 p{
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 18px;
   width: 100%;
@@ -844,7 +841,7 @@ h1 span{
 }
 
 .connect-content{
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1030,7 +1027,7 @@ footer {
 
 }
  .copyright {
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1116,7 +1113,7 @@ footer {
 .projects-info  p {
   width: 90%;
   text-align: justify;
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
