@@ -24,6 +24,7 @@
         margin: auto;
     }
     .service-headline h1{
+        margin-left: 0;
         font-size: 24px;
         text-align: center;
     }
@@ -158,6 +159,7 @@
 
     .team{
         width: 100%;
+        padding-right: 0;
         
     }
     .team-container{
@@ -188,12 +190,17 @@
     }
 
     .team-2{
-        min-height: 20vh;
-        /* justify-content: flex-start; */
+        margin-bottom: 40px;
     }
     .team-4{
-        min-height: 40vh;
-        /* justify-content: flex-start; */
+        margin-bottom: 20px;
+    }
+
+    .team-2 img{
+        margin: auto;
+    }
+    .team-4 img{
+        margin: auto;
     }
 
     .team-3 p{
