@@ -176,8 +176,8 @@ body{
 
 .about p{
   text-align: center;
-  width: 40%;
-  padding: 20px 25px;
+  width: 50%;
+  padding: 20px 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -195,6 +195,9 @@ body{
   width: 6%;
   margin-top: 10px;
   position: absolute;
+}
+.p{
+  font-family: 'Roboto';
 }
 
 .card-main{
@@ -942,7 +945,7 @@ footer {
   flex-direction: row;
   align-items: left;
   padding: 13px 20px;
-  width: 75%;
+  width: 70%;
   background: #cccccc;
   border: none;
   font-weight: 500;

@@ -3,12 +3,8 @@ import React from 'react';
 
 const NavBar = () => {
     let anchorSelector = 'a[href^="#"]';
-     
-        // Collect all such anchor links
         let anchorList =
             document.querySelectorAll(anchorSelector);
-         
-        // Iterate through each of the links
         anchorList.forEach(link => {
             link.onclick = function (e) {
                 e.preventDefault();
