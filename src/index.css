@@ -197,7 +197,8 @@ body{
   position: absolute;
 }
 p{
-  font-family: 'Roboto';
+  font-family: 'Roboto' !important;
+  font-size: 400;
 }
 
 .card-main{
